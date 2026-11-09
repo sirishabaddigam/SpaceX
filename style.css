@@ -1,0 +1,201 @@
+*{
+            padding: 0;
+            margin: 0;
+            font-size: 15px;
+        }
+        header{
+            background-color: black;
+            height: 100px;
+            position: sticky;
+            top: 0px;
+        }
+        #nav{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 400px;
+        }
+        #nav a{
+            color: white;
+            text-decoration: none;
+        }
+        #nav1{
+            display: flex;
+            gap: 20px;
+        }
+        #nav2{
+            display: flex;
+            gap: 20px;
+        }
+        #heading{
+            margin-top: 80px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #hero img{
+            height: 500px;
+            width: 100%;
+        }
+        #parent{
+            margin-top: 50px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .card{
+            width: 400px;
+            text-align: center;
+            line-height: 30px;
+            color: black;
+        }
+        #div1{
+            height: 500px;
+            width: 400px;
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_Starship_StarlinkV3_Deployment_T-shirt_Back_Black_600x.png?v=1784935261);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #div1:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_Starship_StarlinkV3_Deployment_T-shirt_Front_Black_900x.png?v=1784935265);
+        }
+        #div2{
+            height: 500px;
+            width: 400px;
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_KardashevScale_T-shirt_Black_Front_600x.png?v=1784206549);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #div2:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_KardashevScale_T-shirt_Black_Back_900x.png?v=1784206549);
+        }
+        #div3{
+            height: 500px;
+            width: 400px;
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_Starship_Schematic_T-shirt_Back_Black_900x.png?v=1784206637);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #div3:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_Starship_Schematic_T-shirt_Front_Black_900x.png?v=1784206650);
+        }
+        #div4{
+            height: 500px;
+            width: 400px;
+            background-image: url(https://shop.spacex.com/cdn/shop/files/StarshipSchematic_T-shirt_Womens_Back_Pink_900x.png?v=1784206675);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #div4:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/StarshipSchematic_T-shirt_Womens_Front_Pink_900x.png?v=1784206675);
+        }
+        #div5{
+            height: 500px;
+            width: 400px;
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Phobos_Tech_Bag_front_view_900x.png?v=1767659477);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #div5:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Phobos_Tech_Bag_front_view_open_900x.png?v=1767659477);
+        }
+        #div6{
+            height: 500px;
+            width: 400px;
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Ship_Booster_Box_900x.png?v=1769475109);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #div6:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Ship_Booster_Stacked_Box_900x.png?v=1769475116);
+        }
+        #div7{
+            height: 500px;
+            width: 400px;
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Polo_Solid_Front_StoneGray_900x.png?v=1775260080);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #div7:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Polo_Solid_Back_StoneGray_900x.png?v=1775260080);
+        }
+        #div8{
+            height: 500px;
+            width: 400px;
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Starship_Yearly_2025__T-shirt_Back_Black_900x.png?v=1772546284);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #div8:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Starship_Yearly_2025_T-shirt_Front_Black_900x.png?v=1772546297);
+        }
+        #div9{
+            height: 500px;
+            width: 400px;
+            background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceX_Journal_Front_Cover_View_1_900x.png?v=1774388355);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #div9:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceX_Journal_Interior_Front_Fly_View_900x.png?v=1774388391);
+        }
+        #div10{
+            height: 500px;
+            width: 400px;
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Hat_Gray_GoForLaunch-FRONT_900x.png?v=1773103645);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #div10:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Hat_Gray_GoForLaunch-BACK_900x.png?v=1773103645);
+        }
+        #div11{
+            height: 500px;
+            width: 400px;
+            background-image: url(https://shop.spacex.com/cdn/shop/files/MENS_JACKET_3-4_VIEW_900x.png?v=1767730965);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #div11:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/MENS_JACKET_FRONT_OPEN_DETAIL_900x.png?v=1767730965);
+        }
+        button{
+            margin-top: 80px;
+            background-color: black;
+            color: white;
+            height: 50px;
+            width: 200px;
+            display: block;
+            margin: auto;
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+        }
+        footer{
+            margin-top: 80px;
+            background-color: black;
+            color: white;
+            height: 300px;
+        }
+        #foot{
+            padding-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        address{
+            padding-top: 120px;
+            padding-left: 50px;
+        }
